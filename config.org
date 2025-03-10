@@ -428,7 +428,7 @@ purpose.+
     )
   (use-package swiper
     :ensure t
-  :bind (:map evil-normal-state-mode ("<leader>sl" .  swiper))
+  :bind (:map evil-normal-state-map ("<leader>sl" .  swiper))
     )
 #+end_src
 ** Programming language support and utilities
